@@ -23,8 +23,10 @@ class weatherDetails: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    
        getWeatherDetails()
+        getWeatherDetails()
+        remarkablePlaceImageVIew.image = city.remarkablePlaceImage()
     }
     
     
